@@ -81,10 +81,9 @@
         <v-flex
           xs12
           md3
-          offset-md-1
         >
           <v-btn
-            class="primary mt-3"
+            class="primary mt-3 ml-4"
             large
             block
           >

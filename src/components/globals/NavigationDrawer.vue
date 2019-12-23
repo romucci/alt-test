@@ -29,7 +29,7 @@
     <v-layout
       v-for="item in items"
       :key="item.id"
-      class="my-4 flex align-center px-3"
+      class="my-4 flex align-center px-3 navigation-drawer--item"
     >
       <v-flex xs2>
         <img
@@ -128,6 +128,12 @@ export default {
 
 <style scoped lang="sass">
 .navigation-drawer
+  &--item
+    cursor: pointer
+
+    &:hover
+      background-color: rgba(229, 237, 244, 0.46)
+
   &--notifications
     background: #07A766
     border-radius: 12px
