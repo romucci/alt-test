@@ -83,7 +83,7 @@
           md3
         >
           <v-btn
-            class="primary mt-3 ml-4"
+            class="primary mt-3 ml-md-4"
             large
             block
           >
