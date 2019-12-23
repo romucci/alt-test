@@ -8,6 +8,10 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    redirect: '/invite'
+  },
+  {
     path: '/invite',
     name: 'InviteView',
     component: InviteView

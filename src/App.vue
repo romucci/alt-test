@@ -17,11 +17,10 @@
 </template>
 
 <script>
-import TheNavbar from './components/globals/TheNavbar'
 export default {
   name: 'App',
   components: {
-    TheNavbar,
+    TheNavbar: () => import('@/components/globals/TheNavbar'),
     AppSelector: () => import('@/components/globals/AppSelector'),
     NavigationDrawer: () => import('@/components/globals/NavigationDrawer')
   }
