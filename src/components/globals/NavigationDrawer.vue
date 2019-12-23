@@ -49,9 +49,9 @@
       <v-flex
         v-if="item.notifications"
         xs1
-        class="navigation-drawer--notifications body-2 font-weight-bold"
+        class="body-2 font-weight-bold"
       >
-        {{ item.notifications }}
+        <span class="navigation-drawer--notifications">{{ item.notifications }}</span>
       </v-flex>
 
       <v-spacer />
@@ -132,7 +132,7 @@ export default {
     background: #07A766
     border-radius: 12px
     height: 30px
-    width: 25px
+    width: 30px
     display: flex
     justify-content: center
     align-items: center
